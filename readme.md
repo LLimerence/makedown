@@ -1,5 +1,5 @@
 ## 记录一些日常中不注意的问题
-### pytohn
+### python
 * model.train()  
 训练过程中会在程序上方添加一句model.train( )，作用是启用 batch normalization 和 dropout 。  
 如果模型中有BN层（Batch Normalization）和 Dropout ，需要在训练时添加 model.train( )。
